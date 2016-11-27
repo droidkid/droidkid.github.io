@@ -12,14 +12,24 @@ $cyan: #75b5aa;
 $blue: #268bd2;
 // $blue: #6a9fb5;
 $brown: #8f5536;
+$white: #ffffff;
+
+$primary: #607D8B;
+$primary-dark: #37474F;
+
 
 $root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-$root-font-size: 16px;
+$root-font-size: 18px;
 $root-line-height: 1.5;
 
 $body-color: #515151;
-$body-bg: #fff;
+$body-bg: $primary;
 $link-color: $blue;
+
+$header-bg: $primary-dark;
+$header-title-color: $white;
+
+$container-bg: #fff;
 
 $border-color: #e5e5e5;
 
