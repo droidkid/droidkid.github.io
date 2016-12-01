@@ -5,9 +5,9 @@ permalink:           pretty
 title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
-paginate:            2
+paginate:            3
 baseurl:             ""
-excerpt_separator: "<!--more-->"
+excerpt-separator:   "<!--more-->"
 
 # Assets
 #
