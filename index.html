@@ -7,10 +7,11 @@ title: Home
 	{% for post in site.posts %}
 	<div class="card" href="#">
 		<span class="card-header">
-			<span class="card-title">{{ post.title }}</span> 
+			<a href="{{ site.baseurl }}{{ post.url }}">
+				<span class="card-title"><h4>{{ post.title }}</h4></span> </a>
 		</span> 
 		<span class="card-summary">
-				{{ post.excerpt }}
+			{{ post.excerpt }}
 		</span>
 	</div>
 	{% endfor %}
@@ -18,14 +19,14 @@ title: Home
 	{% for post in site.posts %}
 	<div class="card" href="#">
 		<span class="card-summary">
-				{{ post.excerpt }}
+			{{ post.excerpt }}
 		</span>
 	</div>
 	{% endfor %}
 	{% for post in site.posts %}
 	<div class="card" href="#">
 		<span class="card-summary">
-				{{ post.excerpt }}
+			{{ post.excerpt }}
 		</span>
 	</div>
 
