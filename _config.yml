@@ -5,8 +5,9 @@ permalink:           pretty
 title:               Poole
 tagline:             The Jekyll Butler
 url:                 http://getpoole.com
-paginate:            1
+paginate:            2
 baseurl:             ""
+excerpt_separator: "<!--more-->"
 
 # Assets
 #
@@ -30,3 +31,4 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - breakpoint
