@@ -6,6 +6,9 @@ title: Home
 <div class="cards">
 	{% for post in site.posts %}
 	<div class="card" href="#">
+		<span class="card-header">
+			<span class="card-title">{{ post.title }}</span> 
+		</span> 
 		<span class="card-summary">
 				{{ post.excerpt }}
 		</span>
