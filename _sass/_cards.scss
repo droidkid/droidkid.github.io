@@ -1,0 +1,81 @@
+@import "breakpoint";
+
+.cards {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: 15px;
+	padding: 1.5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.card {
+	@media (max-width: 700px) {
+		width: 100%;
+	}
+	position: relative;
+	margin-bottom: 20px; 
+	padding-bottom: 30px; 
+	background: #fefff9;
+	color: #363636; //the whole content of the card becomes linked, so this will give the text a "norma;" appearance
+	text-decoration: none;
+	box-shadow: rgba(black, 0.19) 0 0 8px 0;
+	border-radius: 4px;
+	@include breakpoint(700px, $no-query: true) {
+	//switch to 2 columns
+		max-width: 320px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+	}
+	@include breakpoint(980px, $no-query: true) {
+	//switch to 3 columns
+		&:nth-child(even) {
+			margin-right: 20px;
+		}
+		&:nth-child(3n) {
+			margin-right: 0;
+		}
+	}
+	span {
+		display: block;
+	}
+	.card-summary {
+		padding: 5% 5% 3% 5%;
+	}
+	.card-header {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-color: rgba(white,.15);
+ 		background-blend-mode: overlay;
+		border-radius: 4px 4px 0 0;
+		&:hover, &:focus {
+			background-color: rgba(white, 0);
+		}
+	}
+	.card-title {
+		padding: 5% 5% 3% 5%;
+		color: black;
+		width: 100%;
+		h3 {
+			font-size: 1.2em;
+			line-height: 1.2;
+			padding: 0 3.5%;
+			margin: 0;
+		}
+	}
+}
+
+img {
+	max-width: 100%; // stop images from breaking out of their bounding boxes.
+}
+
+
