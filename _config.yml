@@ -18,14 +18,13 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Yuvaraj K Chesetti
+  email:             yuvaraj.chesetti@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/droidkid/droidkid.github.io
 
 # Gems
 gems:
