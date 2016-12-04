@@ -25,6 +25,10 @@ body {
   background-color: $body-bg;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height:100%;
+
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
