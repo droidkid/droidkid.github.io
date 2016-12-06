@@ -9,27 +9,11 @@ title: Home
 		<span class="card-header">
 			<a href="{{ site.baseurl }}{{ post.url }}">
 				<span class="card-title"><h4>{{ post.title }}</h4></span> </a>
-		</span> 
+		</span>
 		<span class="card-summary">
 			{{ post.excerpt }}
 		</span>
 	</div>
-	{% endfor %}
-
-	{% for post in site.posts %}
-	<div class="card" href="#">
-		<span class="card-summary">
-			{{ post.excerpt }}
-		</span>
-	</div>
-	{% endfor %}
-	{% for post in site.posts %}
-	<div class="card" href="#">
-		<span class="card-summary">
-			{{ post.excerpt }}
-		</span>
-	</div>
-
 	{% endfor %}
 </div>
 
