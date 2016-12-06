@@ -39,6 +39,7 @@ Trie
 A trie is a kind of search tree. Elements can be searched by their prefixes. Walking from the root gives prefixes of the words present in the tree. Generally nodes are marked if they are the end of a word.
 
 Here is some sample C++ code for a trie to store words having 26 different types of characters.
+
 ```
 struct trie{
     trie *next[26];
