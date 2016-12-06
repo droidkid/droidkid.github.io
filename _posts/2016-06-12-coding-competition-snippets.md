@@ -64,6 +64,7 @@ struct trie{
 ```
 
 Good Resources/Problems on Tries:
+
 * [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/), has a few problems also
 * [Threads @ III-Hyderabad](https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems)
 * [Polo the Penguin and the XOR](https://www.codechef.com/problems/PPXOR)
