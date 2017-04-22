@@ -6,10 +6,6 @@ title: Graph Snippets
 Notes and problems on graph algorithms.
 <!--more-->
 
-
-Graphs
-======
-
 Floyd Warshall
 --------------
 Considering that finding the shortest path between any two points can be done in O(V<sup>2</sup>), and there are V<sup>2</sup> paths in a graph, Floyd Warshall is amazing because it can get All Pairs shortest path in O(V<sup>3</sup>). The proof is beautiful and a good introduction to dynamic programming.

@@ -6,9 +6,6 @@ title: Data Structures
 Notes and problems on DataStructures (Tries, BIT, DSU)
 <!--more-->
 
-Data Structures
-===============
-
 Trie
 ----
 
