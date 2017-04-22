@@ -1,0 +1,26 @@
+html body {
+    background-color: #95a5a6 !important;
+    font-family: "Open Sans", "Arial", "Helvetica", "sans-serif";
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content {
+  background-color: #ecf0f1;
+}
+
+.header {
+    background-color: #2f3640;
+    color: white;
+    font-size: 35px;
+}
+.header a {
+  color:white;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+
+.wrapper {
+  padding-top: 30px;
+}
