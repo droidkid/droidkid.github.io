@@ -11,5 +11,6 @@ Prior to this, I recieved my Master's degree in Computer Science from the Univer
 
 
 - [CV](/assets/cv.pdf)
+- [Notebook](https://publish.obsidian.md/chesetti)
 - [Personal Blog](https://ykchesetti.wordpress.com)
 
