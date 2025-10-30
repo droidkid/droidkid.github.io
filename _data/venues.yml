@@ -1,9 +1,10 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"SIGMOD":
+  url: https://sigmod.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACDA":
+  url: https://www.siam.org/conferences-events/past-event-archive/acda25/
 
-"Vision":
+"VLDB":
   color: "#009f36"
+  url: https://www.vldb.org/
