@@ -1,0 +1,25 @@
+# Photos shown on /photos/, sorted newest-first automatically by `date`.
+# To add a photo: drop the file in assets/img/ and add an entry here.
+#   date:    YYYY-MM-DD (used only for ordering)
+#   image:   path under the repo root
+#   caption: shown under the photo (leave "" for none)
+
+- date: 2026-06-03
+  image: assets/img/SIGMOD-2026-presentation.jpg
+  caption: "Presenting at SIGMOD 2026."
+
+- date: 2026-06-03
+  image: assets/img/SIGMOD-2026-posters.jpg
+  caption: "Poster session at SIGMOD 2026."
+
+- date: 2026-06-03
+  image: assets/img/At-SIGMOD-2-26-BLR.jpg
+  caption: "At SIGMOD 2026 in Bangalore."
+
+- date: 2025-05-12
+  image: assets/img/NEDB-2025-Aeris.png
+  caption: "The Aeris filter at New England Database Day 2025."
+
+- date: 2025-06-23
+  image: assets/img/At-SIGMOD-2025-Berlin.jpg
+  caption: "At SIGMOD 2025 in Berlin."
